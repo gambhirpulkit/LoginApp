@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5B327821CFEC03700BC13CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B327811CFEC03700BC13CA /* main.m */; };
+		E5B327851CFEC03700BC13CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B327841CFEC03700BC13CA /* AppDelegate.m */; };
+		E5B327881CFEC03700BC13CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B327871CFEC03700BC13CA /* ViewController.m */; };
+		E5B3278B1CFEC03700BC13CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B327891CFEC03700BC13CA /* Main.storyboard */; };
+		E5B3278D1CFEC03700BC13CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B3278C1CFEC03700BC13CA /* Assets.xcassets */; };
+		E5B327901CFEC03700BC13CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B3278E1CFEC03700BC13CA /* LaunchScreen.storyboard */; };
+		E5B3279B1CFEC03700BC13CA /* SkarmaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B3279A1CFEC03700BC13CA /* SkarmaTests.m */; };
+		E5B327A61CFEC03700BC13CA /* SkarmaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B327A51CFEC03700BC13CA /* SkarmaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5B327971CFEC03700BC13CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5B327751CFEC03700BC13CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B3277C1CFEC03700BC13CA;
+			remoteInfo = Skarma;
+		};
+		E5B327A21CFEC03700BC13CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5B327751CFEC03700BC13CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B3277C1CFEC03700BC13CA;
+			remoteInfo = Skarma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5B3277D1CFEC03700BC13CA /* Skarma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skarma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B327811CFEC03700BC13CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5B327831CFEC03700BC13CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5B327841CFEC03700BC13CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5B327861CFEC03700BC13CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E5B327871CFEC03700BC13CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E5B3278A1CFEC03700BC13CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5B3278C1CFEC03700BC13CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5B3278F1CFEC03700BC13CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5B327911CFEC03700BC13CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B327961CFEC03700BC13CA /* SkarmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkarmaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B3279A1CFEC03700BC13CA /* SkarmaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkarmaTests.m; sourceTree = "<group>"; };
+		E5B3279C1CFEC03700BC13CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B327A11CFEC03700BC13CA /* SkarmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkarmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B327A51CFEC03700BC13CA /* SkarmaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkarmaUITests.m; sourceTree = "<group>"; };
+		E5B327A71CFEC03700BC13CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5B3277A1CFEC03700BC13CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B327931CFEC03700BC13CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B3279E1CFEC03700BC13CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5B327741CFEC03700BC13CA = {
+			isa = PBXGroup;
+			children = (
+				E5B3277F1CFEC03700BC13CA /* Skarma */,
+				E5B327991CFEC03700BC13CA /* SkarmaTests */,
+				E5B327A41CFEC03700BC13CA /* SkarmaUITests */,
+				E5B3277E1CFEC03700BC13CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5B3277E1CFEC03700BC13CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5B3277D1CFEC03700BC13CA /* Skarma.app */,
+				E5B327961CFEC03700BC13CA /* SkarmaTests.xctest */,
+				E5B327A11CFEC03700BC13CA /* SkarmaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5B3277F1CFEC03700BC13CA /* Skarma */ = {
+			isa = PBXGroup;
+			children = (
+				E5B327831CFEC03700BC13CA /* AppDelegate.h */,
+				E5B327841CFEC03700BC13CA /* AppDelegate.m */,
+				E5B327861CFEC03700BC13CA /* ViewController.h */,
+				E5B327871CFEC03700BC13CA /* ViewController.m */,
+				E5B327891CFEC03700BC13CA /* Main.storyboard */,
+				E5B3278C1CFEC03700BC13CA /* Assets.xcassets */,
+				E5B3278E1CFEC03700BC13CA /* LaunchScreen.storyboard */,
+				E5B327911CFEC03700BC13CA /* Info.plist */,
+				E5B327801CFEC03700BC13CA /* Supporting Files */,
+			);
+			path = Skarma;
+			sourceTree = "<group>";
+		};
+		E5B327801CFEC03700BC13CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5B327811CFEC03700BC13CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5B327991CFEC03700BC13CA /* SkarmaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5B3279A1CFEC03700BC13CA /* SkarmaTests.m */,
+				E5B3279C1CFEC03700BC13CA /* Info.plist */,
+			);
+			path = SkarmaTests;
+			sourceTree = "<group>";
+		};
+		E5B327A41CFEC03700BC13CA /* SkarmaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E5B327A51CFEC03700BC13CA /* SkarmaUITests.m */,
+				E5B327A71CFEC03700BC13CA /* Info.plist */,
+			);
+			path = SkarmaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5B3277C1CFEC03700BC13CA /* Skarma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5B327AA1CFEC03700BC13CA /* Build configuration list for PBXNativeTarget "Skarma" */;
+			buildPhases = (
+				E5B327791CFEC03700BC13CA /* Sources */,
+				E5B3277A1CFEC03700BC13CA /* Frameworks */,
+				E5B3277B1CFEC03700BC13CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skarma;
+			productName = Skarma;
+			productReference = E5B3277D1CFEC03700BC13CA /* Skarma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5B327951CFEC03700BC13CA /* SkarmaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5B327AD1CFEC03700BC13CA /* Build configuration list for PBXNativeTarget "SkarmaTests" */;
+			buildPhases = (
+				E5B327921CFEC03700BC13CA /* Sources */,
+				E5B327931CFEC03700BC13CA /* Frameworks */,
+				E5B327941CFEC03700BC13CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5B327981CFEC03700BC13CA /* PBXTargetDependency */,
+			);
+			name = SkarmaTests;
+			productName = SkarmaTests;
+			productReference = E5B327961CFEC03700BC13CA /* SkarmaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5B327A01CFEC03700BC13CA /* SkarmaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5B327B01CFEC03700BC13CA /* Build configuration list for PBXNativeTarget "SkarmaUITests" */;
+			buildPhases = (
+				E5B3279D1CFEC03700BC13CA /* Sources */,
+				E5B3279E1CFEC03700BC13CA /* Frameworks */,
+				E5B3279F1CFEC03700BC13CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5B327A31CFEC03700BC13CA /* PBXTargetDependency */,
+			);
+			name = SkarmaUITests;
+			productName = SkarmaUITests;
+			productReference = E5B327A11CFEC03700BC13CA /* SkarmaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5B327751CFEC03700BC13CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pulkit Gambhir";
+				TargetAttributes = {
+					E5B3277C1CFEC03700BC13CA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Z342BCCW42;
+					};
+					E5B327951CFEC03700BC13CA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Z342BCCW42;
+						TestTargetID = E5B3277C1CFEC03700BC13CA;
+					};
+					E5B327A01CFEC03700BC13CA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Z342BCCW42;
+						TestTargetID = E5B3277C1CFEC03700BC13CA;
+					};
+				};
+			};
+			buildConfigurationList = E5B327781CFEC03700BC13CA /* Build configuration list for PBXProject "Skarma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5B327741CFEC03700BC13CA;
+			productRefGroup = E5B3277E1CFEC03700BC13CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B3277C1CFEC03700BC13CA /* Skarma */,
+				E5B327951CFEC03700BC13CA /* SkarmaTests */,
+				E5B327A01CFEC03700BC13CA /* SkarmaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5B3277B1CFEC03700BC13CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B327901CFEC03700BC13CA /* LaunchScreen.storyboard in Resources */,
+				E5B3278D1CFEC03700BC13CA /* Assets.xcassets in Resources */,
+				E5B3278B1CFEC03700BC13CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B327941CFEC03700BC13CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B3279F1CFEC03700BC13CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5B327791CFEC03700BC13CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B327881CFEC03700BC13CA /* ViewController.m in Sources */,
+				E5B327851CFEC03700BC13CA /* AppDelegate.m in Sources */,
+				E5B327821CFEC03700BC13CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B327921CFEC03700BC13CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B3279B1CFEC03700BC13CA /* SkarmaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B3279D1CFEC03700BC13CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B327A61CFEC03700BC13CA /* SkarmaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5B327981CFEC03700BC13CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5B3277C1CFEC03700BC13CA /* Skarma */;
+			targetProxy = E5B327971CFEC03700BC13CA /* PBXContainerItemProxy */;
+		};
+		E5B327A31CFEC03700BC13CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5B3277C1CFEC03700BC13CA /* Skarma */;
+			targetProxy = E5B327A21CFEC03700BC13CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5B327891CFEC03700BC13CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5B3278A1CFEC03700BC13CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5B3278E1CFEC03700BC13CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5B3278F1CFEC03700BC13CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5B327A81CFEC03700BC13CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5B327A91CFEC03700BC13CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5B327AB1CFEC03700BC13CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Skarma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pulkitgambhir.Skarma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E5B327AC1CFEC03700BC13CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Skarma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pulkitgambhir.Skarma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E5B327AE1CFEC03700BC13CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkarmaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pulkitgambhir.SkarmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skarma.app/Skarma";
+			};
+			name = Debug;
+		};
+		E5B327AF1CFEC03700BC13CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkarmaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pulkitgambhir.SkarmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skarma.app/Skarma";
+			};
+			name = Release;
+		};
+		E5B327B11CFEC03700BC13CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkarmaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pulkitgambhir.SkarmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Skarma;
+			};
+			name = Debug;
+		};
+		E5B327B21CFEC03700BC13CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkarmaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pulkitgambhir.SkarmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Skarma;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5B327781CFEC03700BC13CA /* Build configuration list for PBXProject "Skarma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B327A81CFEC03700BC13CA /* Debug */,
+				E5B327A91CFEC03700BC13CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5B327AA1CFEC03700BC13CA /* Build configuration list for PBXNativeTarget "Skarma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B327AB1CFEC03700BC13CA /* Debug */,
+				E5B327AC1CFEC03700BC13CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E5B327AD1CFEC03700BC13CA /* Build configuration list for PBXNativeTarget "SkarmaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B327AE1CFEC03700BC13CA /* Debug */,
+				E5B327AF1CFEC03700BC13CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E5B327B01CFEC03700BC13CA /* Build configuration list for PBXNativeTarget "SkarmaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B327B11CFEC03700BC13CA /* Debug */,
+				E5B327B21CFEC03700BC13CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5B327751CFEC03700BC13CA /* Project object */;
+}
