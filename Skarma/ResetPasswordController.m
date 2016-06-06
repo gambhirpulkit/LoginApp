@@ -13,6 +13,14 @@
 -(void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
+    CALayer *border = [CALayer layer];
+    CGFloat borderWidth = 0.5;
+    border.borderColor = [UIColor whiteColor].CGColor;
+    border.frame = CGRectMake(0, _resetEmail.frame.size.height - borderWidth, _resetEmail.frame.size.width, _resetEmail.frame.size.height);
+    border.borderWidth = borderWidth;
+    [_resetEmail.layer addSublayer:border];
+    _resetEmail.layer.masksToBounds = YES;
+    
     
 }
 
@@ -21,9 +29,16 @@
     
 
     
-    self.navigationItem.title = @"Forgot Password";
+}
+
+
+
+-(void)viewDidLoad {
+    [super viewDidLoad];
+//    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
+//    self.view.alpha = 0.7f;
     
-    [self.navigationController.navigationBar setTitleTextAttributes: @{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    self.navigationItem.title = @"Forgot Password";
     
     UIImage *backgroundImage = [UIImage imageNamed:@"background.png"];
     UIImageView *backgroundImageView=[[UIImageView alloc]initWithFrame:self.view.frame];
@@ -35,13 +50,13 @@
     backgroundImageView.image=backgroundImage;
     [self.view insertSubview:backgroundImageView atIndex:0];
     
-    CALayer *border = [CALayer layer];
-    CGFloat borderWidth = 0.5;
-    border.borderColor = [UIColor whiteColor].CGColor;
-    border.frame = CGRectMake(0, _resetEmail.frame.size.height - borderWidth, _resetEmail.frame.size.width, _resetEmail.frame.size.height);
-    border.borderWidth = borderWidth;
-    [_resetEmail.layer addSublayer:border];
-    _resetEmail.layer.masksToBounds = YES;
+    
+
+    
+    UIBarButtonItem *btnBack = [[UIBarButtonItem alloc] initWithTitle:@"Back" style: UIBarButtonItemStyleBordered target:self action:nil];
+    self.navigationController.navigationBar.topItem.backBarButtonItem=btnBack;
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+    
     
     [_resetEmail setLeftViewMode:UITextFieldViewModeAlways];
     _resetEmail.leftView= [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"user.png"]];
@@ -51,20 +66,19 @@
     _resetBtn.clipsToBounds = YES;
     [[_resetBtn layer] setBorderColor:[UIColor whiteColor].CGColor];
 
+    _resetEmail.delegate = self;
 }
 
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+{
+    return YES;
+}
 
-
--(void)viewDidLoad {
-    [super viewDidLoad];
-//    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
-//    self.view.alpha = 0.7f;
-    
-    UIBarButtonItem *btnBack = [[UIBarButtonItem alloc] initWithTitle:@"Back" style: UIBarButtonItemStyleBordered target:self action:nil];
-    self.navigationController.navigationBar.topItem.backBarButtonItem=btnBack;
-    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
-
-
+// It is important for you to hide the keyboard
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
 }
     
 @end

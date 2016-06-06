@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ResetPasswordController : UIViewController
+@interface ResetPasswordController : UIViewController <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *resetEmail;
 @property (weak, nonatomic) IBOutlet UIButton *resetBtn;
 

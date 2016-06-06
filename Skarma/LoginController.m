@@ -88,7 +88,22 @@
     _registerBtn.layer.cornerRadius = 5;
     _registerBtn.clipsToBounds = YES;
     [[_registerBtn layer] setBorderColor:[UIColor whiteColor].CGColor];
+    
+    _loginEmail.delegate = self;
+    _loginPwd.delegate = self;
 
+}
+
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+{
+    return YES;
+}
+
+// It is important for you to hide the keyboard
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
 }
 
 -(void)loginAction:(UIButton*)sender {

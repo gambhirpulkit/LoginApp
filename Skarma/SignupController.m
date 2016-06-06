@@ -86,7 +86,23 @@
     [_signupPwd setRightViewMode:UITextFieldViewModeAlways];
     _signupPwd.rightView= [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Invisible.png"]];
     
+    _signupName.delegate = self;
+    _signupEmail.delegate = self;
+    _signupPwd.delegate = self;
+    _phone.delegate = self;
     
+}
+
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+{
+    return YES;
+}
+
+// It is important for you to hide the keyboard
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
 }
 
 @end

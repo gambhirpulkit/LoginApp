@@ -281,6 +281,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Eqs-bc-XQU"/>
                                 </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>

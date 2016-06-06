@@ -10,7 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import <FacebookSDK/FacebookSDK.h>
 
-@interface LoginController : UIViewController <FBLoginViewDelegate>
+@interface LoginController : UIViewController <FBLoginViewDelegate, UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *loginEmail;
 

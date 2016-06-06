@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <FacebookSDK/FacebookSDK.h>
 
-@interface HomeController : UIViewController
+@interface HomeController : UIViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *logoutBtn;
 @property (weak, nonatomic) IBOutlet UIImageView *userImg;

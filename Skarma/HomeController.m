@@ -85,7 +85,24 @@
     
     _logoutBtn.target = self;
     _logoutBtn.action = @selector(logoutAction:);
+    
+    _editEmail.delegate = self;
+    _editPhone.delegate = self;
+    _editName.delegate = self;
+    
         
+}
+
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+{
+    return YES;
+}
+
+// It is important for you to hide the keyboard
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
 }
 
 -(void)logoutAction:(UIBarButtonItem*)sender {
