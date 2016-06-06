@@ -77,7 +77,7 @@
     
     [_loginBtn addTarget:self action:@selector(loginAction:) forControlEvents:UIControlEventTouchUpInside];
 
-    
+    _fbLogin.loginBehavior=FBSessionLoginBehaviorForcingWebView;
     
     [[_loginBtn layer] setBorderWidth:1.0f];
     _loginBtn.layer.cornerRadius = 5;
